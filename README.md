@@ -1,2 +1,5 @@
 # RAPiDLe
-Anomaly detetction with Path Mining
+> Anomaly detection with Path Mining
+
+## Work together
+Other collaborators can make contribution via New branch

@@ -1,0 +1,527 @@
+###############Alert###############
+currentTime:1523070358988852327
+AnomalyScore: 0.9993389187803714
+AlertPath:[File: PATH-/sbin/pfctl]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-pfctl, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-egrep, ARGUMENTS-]: 0.3009092877246157: 339995177
+[Process: PName-egrep, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 49998902
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-tee, ARGUMENTS-]: 0.3013642269380684: 0
+[Process: PName-tee, ARGUMENTS-]->FILE_WRITE->[File: PATH-/tmp/periodic.L7oz7KTJ1r]: 0.1: 10001388
+[File: PATH-/tmp/periodic.L7oz7KTJ1r]->FILE_READ->[Process: PName-cat, ARGUMENTS-]: 0.1: 20001537
+
+###############Alert###############
+currentTime:1523074500278760050
+AnomalyScore: 0.999757
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-chmod, ARGUMENTS-]: 0.1: 20000308
+[Process: PName-chmod, ARGUMENTS-]->FILE_OPEN->[File: PATH-/lib/libc.so.7]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500288763038
+AnomalyScore: 0.999757
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-chmod, ARGUMENTS-]: 0.1: 20000308
+[Process: PName-chmod, ARGUMENTS-]->FILE_OPEN->[File: PATH-/dev/hpet0]: 0.1: 10002988
+
+###############Alert###############
+currentTime:1523074500298759127
+AnomalyScore: 0.99919
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-nice, ARGUMENTS-]: 0.1: 39999385
+
+###############Alert###############
+currentTime:1523074500608763316
+AnomalyScore: 0.99919
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-lsvfs, ARGUMENTS-]: 0.1: 350003574
+
+###############Alert###############
+currentTime:1523074500628760143
+AnomalyScore: 0.9993409133734857
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-tail, ARGUMENTS-]: 0.30060619181641046: 360000712
+[Process: PName-tail, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 9999689
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-egrep, ARGUMENTS-]: 0.3007579038544824: 0
+
+###############Alert###############
+currentTime:1523074500638758012
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_OPEN->[File: PATH-/.]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500678765656
+AnomalyScore: 0.99919
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 420005914
+
+###############Alert###############
+currentTime:1523074500698763494
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 60005482
+
+###############Alert###############
+currentTime:1523074500698763494
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 60005482
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500698763494
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 60005482
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500698763494
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 60005482
+
+###############Alert###############
+currentTime:1523074500738757848
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 99999836
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500738757848
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 99999836
+
+###############Alert###############
+currentTime:1523074500738757848
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 99999836
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500738757848
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 99999836
+
+###############Alert###############
+currentTime:1523074500508757749
+AnomalyScore: 0.9992706317384715
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-csh, ARGUMENTS-]: 0.3001515479541026: 170002628
+[Process: PName-csh, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/pwd.db]: 0.1: 79995379
+
+###############Alert###############
+currentTime:1523074500808767189
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 170009177
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500808767189
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 170009177
+
+###############Alert###############
+currentTime:1523074500818765398
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 180007386
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500818765398
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 180007386
+
+###############Alert###############
+currentTime:1523074500818765398
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 180007386
+
+###############Alert###############
+currentTime:1523074500848758253
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 210000241
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500848758253
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 210000241
+
+###############Alert###############
+currentTime:1523074500858763822
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 220005810
+
+###############Alert###############
+currentTime:1523074500858763822
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 220005810
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074500858763822
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 220005810
+
+###############Alert###############
+currentTime:1523074500918761104
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-/dev/null]: 0.1: 280003092
+
+###############Alert###############
+currentTime:1523074500918761104
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 280003092
+
+###############Alert###############
+currentTime:1523074500968759607
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 330001595
+
+###############Alert###############
+currentTime:1523074500918761104
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-/dev/null]: 0.1: 280003092
+
+###############Alert###############
+currentTime:1523074501018760751
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-/dev/null]: 0.1: 380002739
+
+###############Alert###############
+currentTime:1523074501018760751
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 380002739
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074501048757437
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-/dev/null]: 0.1: 409999425
+
+###############Alert###############
+currentTime:1523074501058759815
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-/dev/null]: 0.1: 420001803
+
+###############Alert###############
+currentTime:1523074501058759815
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-/dev/null]: 0.1: 420001803
+
+###############Alert###############
+currentTime:1523074501058759815
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 380002739
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 39999064
+
+###############Alert###############
+currentTime:1523074501058759815
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-/dev/null]: 0.1: 420001803
+
+###############Alert###############
+currentTime:1523074501058759815
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 420001803
+
+###############Alert###############
+currentTime:1523074501078761383
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 440003371
+
+###############Alert###############
+currentTime:1523074501078761383
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 440003371
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074501058759815
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-/dev/null]: 0.1: 420001803
+
+###############Alert###############
+currentTime:1523074501138757395
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 499999383
+
+###############Alert###############
+currentTime:1523074501138757395
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 499999383
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074501238757441
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 599999429
+
+###############Alert###############
+currentTime:1523074501238757441
+AnomalyScore: 0.9997748922494046
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 599999429
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-locate.code, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523074501088757081
+AnomalyScore: 0.9992496408313488
+AlertPath:[File: PATH-/usr/bin/touch]->PROCESS_LOAD->[Process: PName-sh, ARGUMENTS-]: 0.1: 0
+[Process: PName-touch, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.1: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-chown, ARGUMENTS-]: 0.1: 20000407
+[Process: PName-chown, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-find, ARGUMENTS-]: 0.30878978133795193: 379998270
+[Process: PName-find, ARGUMENTS-]->FILE_WRITE->[File: PATH-/dev/null]: 0.1: 449999069
+
+###############Alert###############
+currentTime:1523417342361095134
+AnomalyScore: 0.9994145906195159
+AlertPath:[File: PATH-/usr/sbin/sendmail]->PROCESS_LOAD->[Process: PName-mail, ARGUMENTS-]: 0.1: 0
+[Process: PName-sendmail, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.8833333333333333: 30003935
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-uniq, ARGUMENTS-]: 0.1: 100000123
+[Process: PName-uniq, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 10000578
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-env, ARGUMENTS-]: 0.30075773977051307: 319995636
+[Process: PName-sh, ARGUMENTS-]->FILE_OPEN->[File: PATH-/etc/libmap.conf]: 0.9962394474290099: 0
+[File: PATH-/etc/libmap.conf]->FILE_READ->[Process: PName-uname, ARGUMENTS-]: 0.1: 430000717
+[Process: PName-uname, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 10001529
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-sh, ARGUMENTS-]: 0.3745777392810741: 0
+[Process: PName-sh, ARGUMENTS-]->FILE_WRITE->[File: PATH-/tmp/periodic.96nfPHRrmQ]: 0.1: 9999178
+[File: PATH-/tmp/periodic.96nfPHRrmQ]->FILE_READ->[Process: PName-cat, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523558131816146223
+AnomalyScore: 0.999757
+AlertPath:[Network Connect: Localhost--53.158.101.118:80]->NET_CONNECT->[Process: PName-XIM, ARGUMENTS-]: 0.1: 0
+[Process: PName-XIM, ARGUMENTS-]->PROCESS_FORK->[Process: PName-XIM, ARGUMENTS-aue_fork]: 0.1: 10001181
+[Process: PName-test, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-uname, ARGUMENTS-]: 0.1: 40003355
+[Process: PName-uname, ARGUMENTS-]->FILE_WRITE->[File: PATH-<unknown>]: 0.1: 0
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-test, ARGUMENTS-]: 0.1: 0
+
+###############Alert###############
+currentTime:1523558131816146223
+AnomalyScore: 0.99919
+AlertPath:[Network Connect: Localhost--53.158.101.118:80]->NET_CONNECT->[Process: PName-XIM, ARGUMENTS-]: 0.1: 0
+[Process: PName-XIM, ARGUMENTS-]->PROCESS_FORK->[Process: PName-XIM, ARGUMENTS-aue_fork]: 0.1: 10001181
+[Process: PName-test, ARGUMENTS-]->FILE_OPEN->[File: PATH-/var/run/ld-elf.so.hints]: 0.1: 0
+[File: PATH-/var/run/ld-elf.so.hints]->FILE_READ->[Process: PName-uname, ARGUMENTS-]: 0.1: 40003355
+[Process: PName-uname, ARGUMENTS-]->FILE_OPEN->[File: PATH-/dev/hpet0]: 0.1: 0
+
+0/13800000 of Events lost!
+Overall Processing Info: [ProcessingStartTime: 1720190124 (s), CurrentTime: 1720191128 (s),
+	Event Process Rate: 13745.019531 (event per second) = 13800000 (event) / 1004 (s),
+	Alert Generation Rate: 276000.000000 (event per alert) = 13800000 (event) / 50 (alert)]
+Single Host Processing Info: [CurrentEventTime: 1523655142 (s)
+	Alert Generation Rate: 20.080000 (second per alert) = 1004 (second) / 50 (alert)]
+Anomaly Tag Status Info: [TotalEventCount: 13800000, TotalTagCount: 451760 = InitialTagCount: 215764 + PropagationCount: 235996, DecayedTagCount: 22614, TotalAlertCount: 50]
+
+[File: PATH-<unknown>]->FILE_READ->[Process: PName-sh, ARGUMENTS-]
+[Process: PName-sh, ARGUMENTS-]->FILE_WRITE->[File: PATH-/tmp/periodic.96nfPHRrmQ]
+[File: PATH-/tmp/periodic.96nfPHRrmQ]->FILE_READ->[Process: PName-cat, ARGUMENTS-]

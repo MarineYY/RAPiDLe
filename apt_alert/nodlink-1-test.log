@@ -1,0 +1,372 @@
+###############Alert###############
+currentTime:1648192577244458920
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+true positive:
+Precision: 1.0, Recall: 0.1
+
+###############Alert###############
+currentTime:1648192577387559750
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> file write -> [File 08e68adb-8563-5312-b97d-0e19ddde7291 /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/046/upload_2b89047a_a393_4ef4_ba42_d0ec83bbf4d9_00000116.tmp], ts:1648192577387559750: 0.1
+true positive:
+Precision: 1.0, Recall: 0.1
+
+###############Alert###############
+currentTime:1648192577389543099
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> file write -> [File 74472ab2-ae28-523a-ba1a-b65e31bcf2fb 218.17.184.106->192.168.0.155], ts:1648192577389543099: 0.1
+true positive:
+Precision: 1.0, Recall: 0.1
+
+###############Alert###############
+currentTime:1648192577585375460
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> file write -> [File 8864c373-3f75-596f-b259-55d52dddfbc2 /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/046/upload_2b89047a_a393_4ef4_ba42_d0ec83bbf4d9_00000117.tmp], ts:1648192577585375460: 0.1
+true positive:
+Precision: 1.0, Recall: 0.1
+
+###############Alert###############
+currentTime:1648192585985232886
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> file write -> [File 937bd2aa-06e7-52da-9dc6-9a0949ec8527 /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.java], ts:1648192585985232886: 0.1
+true positive:
+Precision: 1.0, Recall: 0.2
+
+###############Alert###############
+currentTime:1648192586013162381
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> file write -> [File da91e64c-e244-583b-b139-d9ddeb417dab /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp$1U.class], ts:1648192586013162381: 0.1
+true positive:
+Precision: 1.0, Recall: 0.3
+
+###############Alert###############
+currentTime:1648192586013241470
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> file write -> [File 8bcf068b-89f3-5d8d-a84b-133e031a83bf /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.class], ts:1648192586013241470: 0.1
+true positive:
+Precision: 1.0, Recall: 0.4
+
+###############Alert###############
+currentTime:1648192586013429436
+AnomalyScore: 0.99919
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> file write -> [File 9f75baf9-069c-57ef-a47d-0b8d63d5970e /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.classtmp], ts:1648192586013429436: 0.1
+true positive:
+Precision: 1.0, Recall: 0.5
+
+###############Alert###############
+currentTime:1648192596993589573
+AnomalyScore: 0.9980465880785371
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> process fork -> [Process 167916b4-87fd-53fc-8805-f3a36a0f5751 http-nio-80-exe], ts:1648192586031287122: 0.8038732187090235
+Event: [Process 167916b4-87fd-53fc-8805-f3a36a0f5751 sh] -> process execute -> [Process 6b045f4a-61fd-5335-96aa-25c98d779773 sh], ts:1648192596993589573: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6
+
+###############Alert###############
+currentTime:1648192597049398256
+AnomalyScore: 0.9994139764235611
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> process fork -> [Process 167916b4-87fd-53fc-8805-f3a36a0f5751 http-nio-80-exe], ts:1648192586031287122: 0.8038732187090235
+Event: [Process 167916b4-87fd-53fc-8805-f3a36a0f5751 sh] -> process execute -> [Process 6b045f4a-61fd-5335-96aa-25c98d779773 sh], ts:1648192596993589573: 0.1
+Event: [Process 6b045f4a-61fd-5335-96aa-25c98d779773 sqltool_amd64_u] -> file modify -> [File cc498f1c-02cd-5a47-8b22-a57ac68372da /dev/null], ts:1648192597049398256: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6
+
+###############Alert###############
+currentTime:1648192606867237303
+AnomalyScore: 0.9994139764235611
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155], ts:1648471346285659623: 0.1
+Event: [File fb6550a0-a1fc-5c36-a0c8-37f5f3f1d2a2 111.205.230.211->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648471346299668850: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file modify -> [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155], ts:1648192577243957227: 0.1
+Event: [File 4445789e-a955-50e1-a022-8bd661e8e123 192.168.0.155->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648192577244458920: 0.1
+Event: [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe] -> process fork -> [Process 167916b4-87fd-53fc-8805-f3a36a0f5751 http-nio-80-exe], ts:1648192586031287122: 0.8038732187090235
+Event: [Process 167916b4-87fd-53fc-8805-f3a36a0f5751 sh] -> process execute -> [Process 6b045f4a-61fd-5335-96aa-25c98d779773 sh], ts:1648192596993589573: 0.1
+Event: [Process 6b045f4a-61fd-5335-96aa-25c98d779773 sqltool_amd64_u] -> file write -> [File 2a9ce2c2-d813-57c8-8a0b-b5df744d4b81 192.168.0.155->192.168.0.244], ts:1648192606867237303: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6
+
+###############Alert###############
+currentTime:1648488602350836109
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg], ts:1648488602350070456: 0.1
+Event: [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg] -> file read -> [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp], ts:1648488602350830544: 0.1
+Event: [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp] -> file write -> [File 790ed91e-18b7-5b09-b4e8-9ec751220f54 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.orig.gpg], ts:1648488602350836109: 0.1
+true positive:
+Precision: 1.0, Recall: 0.8
+
+###############Alert###############
+currentTime:1648488602368207361
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg], ts:1648488602350070456: 0.1
+Event: [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602358138852: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File b1056460-910a-5238-a423-a7b78cd321a9 /tmp/apt.conf.4Av5IW], ts:1648488602368207361: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602368345462
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg], ts:1648488602350070456: 0.1
+Event: [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602358138852: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File de42f28a-6ce4-5ca4-8888-570fd69a3681 /tmp/apt.data.mOCLZY], ts:1648488602368345462: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602371447771
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg], ts:1648488602350070456: 0.1
+Event: [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602358138852: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File 7334a3ff-0d09-55a6-b101-6098438d8f45 /tmp/apt.sig.y3GXyZ], ts:1648488602371447771: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602374165903
+AnomalyScore: 0.99919
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg], ts:1648488602350070456: 0.1
+Event: [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602358138852: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File b1056460-910a-5238-a423-a7b78cd321a9 /tmp/apt.conf.4Av5IW], ts:1648488602368207361: 0.1
+Event: [File b1056460-910a-5238-a423-a7b78cd321a9 /tmp/apt.conf.4Av5IW] -> file read -> [Process 9f76efae-8133-5157-b952-029083a3e267 apt-config], ts:1648488602374165903: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602375373355
+AnomalyScore: 0.9981523606941128
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg], ts:1648488602350070456: 0.1
+Event: [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602358138852: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File b1056460-910a-5238-a423-a7b78cd321a9 /tmp/apt.conf.4Av5IW], ts:1648488602368207361: 0.1
+Event: [File b1056460-910a-5238-a423-a7b78cd321a9 /tmp/apt.conf.4Av5IW] -> file read -> [Process 9f76efae-8133-5157-b952-029083a3e267 apt-config], ts:1648488602374165903: 0.1
+Event: [Process 9f76efae-8133-5157-b952-029083a3e267 apt-config] -> file modify -> [File 62eb857d-eaf5-555c-a875-de2b7028e8fc /proc/self/fd], ts:1648488602375373355: 0.7603453933691954
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602375581925
+AnomalyScore: 0.9981186596008085
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg], ts:1648488602350070456: 0.1
+Event: [File 7430ad5a-2d4f-5c02-908a-6b5e096edc68 /tmp/apt-key-gpghome.PZvGPQvgZm/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602358138852: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File b1056460-910a-5238-a423-a7b78cd321a9 /tmp/apt.conf.4Av5IW], ts:1648488602368207361: 0.1
+Event: [File b1056460-910a-5238-a423-a7b78cd321a9 /tmp/apt.conf.4Av5IW] -> file read -> [Process 9f76efae-8133-5157-b952-029083a3e267 apt-config], ts:1648488602374165903: 0.1
+Event: [Process 9f76efae-8133-5157-b952-029083a3e267 apt-config] -> process execute -> [Process 9ebd6d84-47a5-52be-bad5-317734d2b95e apt-config], ts:1648488602375581925: 0.7742141560458939
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602421111545
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 1ba8b280-e9db-54d1-9666-400c64096efe /tmp/apt-key-gpghome.KFLYSZbcZ0/pubring.gpg], ts:1648488602420338331: 0.1
+Event: [File 1ba8b280-e9db-54d1-9666-400c64096efe /tmp/apt-key-gpghome.KFLYSZbcZ0/pubring.gpg] -> file read -> [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp], ts:1648488602421105788: 0.1
+Event: [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp] -> file write -> [File 49f0c3e8-c3f5-5c8b-b529-74f61f0c48cf /tmp/apt-key-gpghome.KFLYSZbcZ0/pubring.orig.gpg], ts:1648488602421111545: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602435972637
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 1ba8b280-e9db-54d1-9666-400c64096efe /tmp/apt-key-gpghome.KFLYSZbcZ0/pubring.gpg], ts:1648488602420338331: 0.1
+Event: [File 1ba8b280-e9db-54d1-9666-400c64096efe /tmp/apt-key-gpghome.KFLYSZbcZ0/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602426573423: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File aa357802-16a9-53a2-b833-a95f43bc4fad /tmp/apt.conf.gdhvyt], ts:1648488602435972637: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602436125203
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 1ba8b280-e9db-54d1-9666-400c64096efe /tmp/apt-key-gpghome.KFLYSZbcZ0/pubring.gpg], ts:1648488602420338331: 0.1
+Event: [File 1ba8b280-e9db-54d1-9666-400c64096efe /tmp/apt-key-gpghome.KFLYSZbcZ0/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602426573423: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File 0a1d3f54-ec1c-5f03-9a39-1596d1622472 /tmp/apt.data.SUgCHt], ts:1648488602436125203: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602439126073
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 1ba8b280-e9db-54d1-9666-400c64096efe /tmp/apt-key-gpghome.KFLYSZbcZ0/pubring.gpg], ts:1648488602420338331: 0.1
+Event: [File 1ba8b280-e9db-54d1-9666-400c64096efe /tmp/apt-key-gpghome.KFLYSZbcZ0/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602426573423: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File 26b18b49-aa86-5c07-97a8-859783b42dca /tmp/apt.sig.AYpKIt], ts:1648488602439126073: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602489071148
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 671d6eae-8193-5e91-92a4-c14cde8d6347 /tmp/apt-key-gpghome.rdnPnYUhQw/pubring.gpg], ts:1648488602488317858: 0.1
+Event: [File 671d6eae-8193-5e91-92a4-c14cde8d6347 /tmp/apt-key-gpghome.rdnPnYUhQw/pubring.gpg] -> file read -> [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp], ts:1648488602489065023: 0.1
+Event: [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp] -> file write -> [File c7e0f168-9ccb-5add-a15a-0ba719920127 /tmp/apt-key-gpghome.rdnPnYUhQw/pubring.orig.gpg], ts:1648488602489071148: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602503730365
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 671d6eae-8193-5e91-92a4-c14cde8d6347 /tmp/apt-key-gpghome.rdnPnYUhQw/pubring.gpg], ts:1648488602488317858: 0.1
+Event: [File 671d6eae-8193-5e91-92a4-c14cde8d6347 /tmp/apt-key-gpghome.rdnPnYUhQw/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602494545661: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File 7d49f550-9ad2-5636-aa7d-70e62c63dfa6 /tmp/apt.conf.qzdiW3], ts:1648488602503730365: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602503870986
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 671d6eae-8193-5e91-92a4-c14cde8d6347 /tmp/apt-key-gpghome.rdnPnYUhQw/pubring.gpg], ts:1648488602488317858: 0.1
+Event: [File 671d6eae-8193-5e91-92a4-c14cde8d6347 /tmp/apt-key-gpghome.rdnPnYUhQw/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602494545661: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File 451929b6-45b8-5cae-9e57-598278dc888d /tmp/apt.data.hzBqU4], ts:1648488602503870986: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602507030104
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File 671d6eae-8193-5e91-92a4-c14cde8d6347 /tmp/apt-key-gpghome.rdnPnYUhQw/pubring.gpg], ts:1648488602488317858: 0.1
+Event: [File 671d6eae-8193-5e91-92a4-c14cde8d6347 /tmp/apt-key-gpghome.rdnPnYUhQw/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602494545661: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File 0a48d210-8fb4-5377-a940-f9ffe3aebbd2 /tmp/apt.sig.dWuIM2], ts:1648488602507030104: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488602557876576
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File fee24c38-0ae1-525c-8de4-bc4186bd29b7 /tmp/apt-key-gpghome.eyujuNlmBP/pubring.gpg], ts:1648488602557122075: 0.1
+Event: [File fee24c38-0ae1-525c-8de4-bc4186bd29b7 /tmp/apt-key-gpghome.eyujuNlmBP/pubring.gpg] -> file read -> [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp], ts:1648488602557870587: 0.1
+Event: [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp] -> file write -> [File c64b5be8-6102-5bdd-8092-990b8cc9a712 /tmp/apt-key-gpghome.eyujuNlmBP/pubring.orig.gpg], ts:1648488602557876576: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488603315091050
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File fee24c38-0ae1-525c-8de4-bc4186bd29b7 /tmp/apt-key-gpghome.eyujuNlmBP/pubring.gpg], ts:1648488602557122075: 0.1
+Event: [File fee24c38-0ae1-525c-8de4-bc4186bd29b7 /tmp/apt-key-gpghome.eyujuNlmBP/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602563513857: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File 52aaedbe-5044-525d-8efb-d391b801f49c /tmp/apt.conf.PVbU8u], ts:1648488603315091050: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488603315263583
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File fee24c38-0ae1-525c-8de4-bc4186bd29b7 /tmp/apt-key-gpghome.eyujuNlmBP/pubring.gpg], ts:1648488602557122075: 0.1
+Event: [File fee24c38-0ae1-525c-8de4-bc4186bd29b7 /tmp/apt-key-gpghome.eyujuNlmBP/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602563513857: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File de6d1dee-02bf-5f52-9149-830ef09dbfb1 /tmp/apt.data.Q4cQau], ts:1648488603315263583: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488603315303815
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File fee24c38-0ae1-525c-8de4-bc4186bd29b7 /tmp/apt-key-gpghome.eyujuNlmBP/pubring.gpg], ts:1648488602557122075: 0.1
+Event: [File fee24c38-0ae1-525c-8de4-bc4186bd29b7 /tmp/apt-key-gpghome.eyujuNlmBP/pubring.gpg] -> file read -> [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv], ts:1648488602563513857: 0.1
+Event: [Process 84bc9e7b-616c-5777-af56-a6fbd3ae0b9c gpgv] -> file write -> [File e83f5bf0-f9de-5556-aea5-d2090c05e647 /tmp/apt.sig.lwS7Dw], ts:1648488603315303815: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648488603366285032
+AnomalyScore: 0.9973
+AlertPath:
+Event: [File 34770b9f-3863-57d1-8451-ddb13cb3cf79 /proc/308518/stat] -> file read -> [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat], ts:1648486361516678581: 0.1
+Event: [Process 08c80b73-c26d-5ef0-81a0-aad0fccddcba cat] -> file write -> [File e44420db-834f-5fb2-813a-44d9e7cf3173 /tmp/apt-key-gpghome.NSxjOseUPX/pubring.gpg], ts:1648488603365519741: 0.1
+Event: [File e44420db-834f-5fb2-813a-44d9e7cf3173 /tmp/apt-key-gpghome.NSxjOseUPX/pubring.gpg] -> file read -> [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp], ts:1648488603366279093: 0.1
+Event: [Process bfca5bc2-45cb-53d1-bf53-aebf2c557032 cp] -> file write -> [File 74fb2481-ec19-5329-a74a-68b884bea850 /tmp/apt-key-gpghome.NSxjOseUPX/pubring.orig.gpg], ts:1648488603366285032: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+
+###############Alert###############
+currentTime:1648194781661332908
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File 541e8c80-7ecf-58e5-81de-5f7d1e8afa2c 222.186.141.206->192.168.0.155], ts:1648484245678673427: 0.1
+Event: [File 541e8c80-7ecf-58e5-81de-5f7d1e8afa2c 222.186.141.206->192.168.0.155] -> file read -> [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd], ts:1648484245678690553: 0.1
+Event: [Process 407bda84-8c93-578f-a659-605428b9d0d9 sshd] -> file write -> [File d7f3f9ed-aa21-5ed4-9c80-25accfb7634b 121.32.254.149->192.168.0.155], ts:1648194774665380237: 0.1
+Event: [File d7f3f9ed-aa21-5ed4-9c80-25accfb7634b 121.32.254.149->192.168.0.155] -> file read -> [Process 39bfc024-107c-5f59-a70b-c7a042977e10 http-nio-80-exe], ts:1648194781661332908: 0.1
+true positive:
+Precision: 1.0, Recall: 0.9
+

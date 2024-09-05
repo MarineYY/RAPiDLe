@@ -1,0 +1,153 @@
+###############Alert###############
+currentTime:1523028796536154997
+AnomalyScore: 0.991
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 1, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523028796536154997
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File 51110606-D232-9652-B2D2-3A7242968F8A /etc/libmap.conf], ts:1523028796536154997: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 2, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523028796536154997
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File 8A44F292-648B-7854-8B64-00F954785A79 /var/run/ld-elf.so.hints], ts:1523028796536154997: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 3, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523028796536154997
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File 76A739B1-A13E-FD50-BEA1-B218A0FD0400 /lib/libc.so.7], ts:1523028796536154997: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 4, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523028796546159758
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File 65142C5B-32FF-825F-BF32-60951F827170 /lib/libthr.so.3], ts:1523028796546159758: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 5, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523028796546159758
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File F410BE96-4C0C-765E-8C4C-6F0E2E760020 /dev/hpet0], ts:1523028796546159758: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 6, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523028796546159758
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> network send -> [Network Connect D384652A-39AF-11E8-BF66-D9AA8AFF4A69 139.123.0.113 : 80], ts:1523028796546159758: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 7, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523028796546159758
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File 416AB837-8E42-6D58-828E-6976586D8E68 /dev/urandom], ts:1523028796546159758: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 8, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523028836766156142
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File 4F66A7D8-7695-7051-9576-684791704F29 /etc/passwd], ts:1523028836766156142: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 9, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523029102016150570
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File 1633500B-D34B-8058-8BD3-ABB7D880915E /dev/null], ts:1523029102016150570: 0.1
+true positive:
+Precision: 1.0, Recall: 0.6666666666666666, TP: 10, FP: 0, r1: 4, r2: 6
+
+###############Alert###############
+currentTime:1523029384976142609
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> network send -> [Network Connect 323ED9A0-39B1-11E8-BF66-D9AA8AFF4A69 61.167.39.128 : 80], ts:1523029384976142609: 0.1
+true positive:
+Precision: 1.0, Recall: 0.8333333333333334, TP: 11, FP: 0, r1: 5, r2: 6
+
+###############Alert###############
+currentTime:1523030218716124741
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> process modify -> [Process 0C0CC0C3-3680-11E8-BF66-D9AA8AFF4A69 vUgefal], ts:1523030218716124741: 0.1
+true positive:
+Precision: 1.0, Recall: 0.8333333333333334, TP: 12, FP: 0, r1: 5, r2: 6
+
+###############Alert###############
+currentTime:1523030223666124808
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File 57F81A85-12E4-0A52-A412-AF02620A2A60 /var/log/.], ts:1523030223666124808: 0.1
+true positive:
+Precision: 1.0, Recall: 0.8333333333333334, TP: 13, FP: 0, r1: 5, r2: 6
+
+###############Alert###############
+currentTime:1523030692046111295
+AnomalyScore: 0.9973
+AlertPath:
+Event: [Network Connect 60040266-39AE-11E8-BF66-D9AA8AFF4A69 81.49.200.166 : 43530] -> network receive -> [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx], ts:1523028173276168307: 0.1
+Event: [Process 674D8313-390A-11E8-BF66-D9AA8AFF4A69 nginx] -> file modify -> [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal], ts:1523028709896164074: 0.1
+Event: [File F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED /tmp/vUgefal] -> process load -> [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 master], ts:1523028796536154997: 0.1
+Event: [Process D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69 vUgefal] -> file write -> [File 4E4F26B0-221A-5950-9A22-3A4F5059636A /var/log/devc], ts:1523030692046111295: 0.1
+true positive:
+Precision: 1.0, Recall: 1.0, TP: 14, FP: 0, r1: 6, r2: 6
+

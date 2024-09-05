@@ -1,0 +1,156 @@
+########################################################
+#
+#                   Artifacts path
+#
+########################################################
+
+# topic = 'e3-cadets-1-test'
+# topic = 'e3-cadets-2-test'
+# topic = 'e3-cadets-3-test'
+# topic = 'e3-theia-1-test'
+topic = 'e3-trace-1-test'
+# topic = 'nodlink-1-test'
+
+# topic = 'frequency-3-test'
+# topic = 'frequency-4-test'
+# topic = 'frequency-5-test'
+
+# alert path
+# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-cadets-1-test.log'
+# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-cadets-2-test.log'
+# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-cadets-3-test.log'
+# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-theia-1-test.log'
+alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-trace-1-test.log'
+# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/nodlink-1-test.log'
+
+# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/frequency-3-test.log'
+# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/frequency-4-test.log'
+# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/frequency-5-test.log'
+
+attack_nodes_dict = {
+    'e3-cadets-1-test': [
+        '60040266-39AE-11E8-BF66-D9AA8AFF4A69',
+        '674D8313-390A-11E8-BF66-D9AA8AFF4A69',
+        'F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED',
+        'D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69',
+        '323ED9A0-39B1-11E8-BF66-D9AA8AFF4A69',
+        '4E4F26B0-221A-5950-9A22-3A4F5059636A'
+    ],
+    'e3-cadets-2-test': [
+        '5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A',
+        '11C64B2C-3DC3-11E8-A5CA-3FA3753A265A',
+        '5453C813-1A0E-4359-8E1A-41B40943CDC5',
+        '5026C48F-56BA-3E5B-BA56-DD382B3EC82B',
+        '21A20E29-3E7E-11E8-A5CB-3FA3753A265A',
+        '48289024-3E7E-11E8-A5CB-3FA3753A265A',
+        'E5F1BC5B-052D-3F5F-AD05-928A8F3FF746',
+        'CBBF8038-5237-8651-B752-A1C99186128A',
+        '4DA445A7-56DB-D353-9B56-AD9CD3D373D6',
+        '84D440C2-4E50-4A5C-904E-C4772C4ACD5A',
+        '47E61FFC-3E80-11E8-A5CB-3FA3753A265A',
+        '47EA0B5C-3E80-11E8-A5CB-3FA3753A265A'
+    ],
+    'e3-cadets-3-test': [
+        '11C65665-3DC3-11E8-A5CA-3FA3753A265A',
+        '937BA111-3F1B-11E8-A5CB-3FA3753A265A',
+        'E5A15412-68E0-FD54-A068-DD6114FD9040',
+        '0C773AFD-8F2A-3555-AA8F-AFF835357207',
+        '4FB0BFEA-3F1C-11E8-A5CB-3FA3753A265A',
+        '4FB30E44-3F1C-11E8-A5CB-3FA3753A265A',
+        '885AF67E-0E96-FE5D-960E-14BA5DFEBBD3',
+        '6C04A21E-0D75-2B5F-B50D-88F06F2B7BF7',
+        '2A03F3BA-792D-9C5B-AD79-5A5DEB9CB9D2',
+        '2CA83801-3E80-11E8-A5CB-3FA3753A265A',
+        'DEF1F812-3F1C-11E8-A5CB-3FA3753A265A',
+        '9B503B58-3F1C-11E8-A5CB-3FA3753A265A'
+    ],
+    'e3-theia-1-test': [
+        '80370C6E-4396-8D2B-B0CB-500000000040',
+        'B33501B6-0200-0000-0000-000000000020',
+        '0100D00F-B700-2800-0000-00002BDE0334',
+        'B53501B6-0200-0000-0000-000000000020',
+        '80370C6E-39C2-9299-4497-500000000040',
+        'B73501B6-0200-0000-0000-000000000020',
+        '223838BC-0200-0000-0000-000000000020',
+        '0100D00F-A84B-1E00-0000-00008C1CB31C',
+        '283847BC-0200-0000-0000-000000000020',
+        '80370C6E-D2AA-9534-C617-500000000040',
+        'B43501B6-0200-0000-0000-000000000020'
+    ],
+    'e3-trace-1-test': [
+        'A494D8CF-50ED-5620-1FBE-07A0EE363991',
+        '59169A99-4C73-E5E0-1E25-DB232BA80F32',
+        '96FE4223-D38F-9D49-C00F-D51954FA7DD4',
+        'D64910E4-454E-156D-BF13-BC7AD66F7A6A',
+        '7E6F9A12-EDFA-C87E-B4D5-DB6C782DC6DC',
+        '9736A2A7-D8A8-498F-A633-743D7AEAAEDF',
+        '66C31C14-7518-0945-62A9-A7BE2735B99A',
+        '64CAD5CA-849D-BE05-6CFB-2FF0F42B42BB',
+        '3EB03066-F035-57AD-5310-105C5004A50C',
+        '17498F61-1D2A-DEB2-F6E5-EB447ABF4A60',
+    ],
+    'nodlink-1-test':[
+        '39bfc024-107c-5f59-a70b-c7a042977e10',
+        '937bd2aa-06e7-52da-9dc6-9a0949ec8527', 
+        'da91e64c-e244-583b-b139-d9ddeb417dab', 
+        '8bcf068b-89f3-5d8d-a84b-133e031a83bf',  
+        '9f75baf9-069c-57ef-a47d-0b8d63d5970e',   
+        '84bc9e7b-616c-5777-af56-a6fbd3ae0b9c', 
+        '6b045f4a-61fd-5335-96aa-25c98d779773',  
+        'bfca5bc2-45cb-53d1-bf53-aebf2c557032',  
+        '08c80b73-c26d-5ef0-81a0-aad0fccddcba', 
+        'e79e7ef9-ba58-594e-a063-a5630b3d7224',
+    ],
+    'frequency-3-test': [
+        '60040266-39AE-11E8-BF66-D9AA8AFF4A69',
+        '674D8313-390A-11E8-BF66-D9AA8AFF4A69',
+        'F77E454D-CA07-6B5D-87CA-9EFDCD6BA3ED',
+        'D3822AFC-39AF-11E8-BF66-D9AA8AFF4A69',
+        '323ED9A0-39B1-11E8-BF66-D9AA8AFF4A69',
+        '4E4F26B0-221A-5950-9A22-3A4F5059636A'
+    ],
+    'frequency-4-test': [
+        '5EE4F8FC-3E7B-11E8-A5CB-3FA3753A265A',
+        '11C64B2C-3DC3-11E8-A5CA-3FA3753A265A',
+        '5453C813-1A0E-4359-8E1A-41B40943CDC5',
+        '5026C48F-56BA-3E5B-BA56-DD382B3EC82B',
+        '21A20E29-3E7E-11E8-A5CB-3FA3753A265A',
+        '48289024-3E7E-11E8-A5CB-3FA3753A265A',
+        'E5F1BC5B-052D-3F5F-AD05-928A8F3FF746',
+        'CBBF8038-5237-8651-B752-A1C99186128A',
+        '4DA445A7-56DB-D353-9B56-AD9CD3D373D6',
+        '84D440C2-4E50-4A5C-904E-C4772C4ACD5A',
+        '47E61FFC-3E80-11E8-A5CB-3FA3753A265A',
+        '47EA0B5C-3E80-11E8-A5CB-3FA3753A265A'
+    ],
+    'frequency-5-test': [
+        '11C65665-3DC3-11E8-A5CA-3FA3753A265A',
+        '937BA111-3F1B-11E8-A5CB-3FA3753A265A',
+        'E5A15412-68E0-FD54-A068-DD6114FD9040',
+        '0C773AFD-8F2A-3555-AA8F-AFF835357207',
+        '4FB0BFEA-3F1C-11E8-A5CB-3FA3753A265A',
+        '4FB30E44-3F1C-11E8-A5CB-3FA3753A265A',
+        '885AF67E-0E96-FE5D-960E-14BA5DFEBBD3',
+        '6C04A21E-0D75-2B5F-B50D-88F06F2B7BF7',
+        '2A03F3BA-792D-9C5B-AD79-5A5DEB9CB9D2',
+        '2CA83801-3E80-11E8-A5CB-3FA3753A265A',
+        'DEF1F812-3F1C-11E8-A5CB-3FA3753A265A',
+        '9B503B58-3F1C-11E8-A5CB-3FA3753A265A'
+    ],
+}
+
+        # 'A494D8CF-50ED-5620-1FBE-07A0EE363991', 146.153.68.151
+        # '1F52B45B-9618-A060-215D-7BD61ECCAE05', gtcache
+        # 'E621F964-5A66-0F89-30E0-67ADB2A5EC28', /tmp/ztmp
+
+#  nodlink
+# '39bfc024-107c-5f59-a70b-c7a042977e10', http
+# '937bd2aa-06e7-52da-9dc6-9a0949ec8527',  /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.java
+# 'da91e64c-e244-583b-b139-d9ddeb417dab',  /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp$1U.class
+# '8bcf068b-89f3-5d8d-a84b-133e031a83bf',  /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.clas
+# '9f75baf9-069c-57ef-a47d-0b8d63d5970',   /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.classtmp
+# '84bc9e7b-616c-5777-af56-a6fbd3ae0b9c' sqltool_amd64_u
+# '6b045f4a-61fd-5335-96aa-25c98d779773'  gpgv
+# 'bfca5bc2-45cb-53d1-bf53-aebf2c557032'  cp
+# '08c80b73-c26d-5ef0-81a0-aad0fccddcba' cat
+# 'e79e7ef9-ba58-594e-a063-a5630b3d7224' base64

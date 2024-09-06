@@ -4,7 +4,7 @@
 Welcome to the RAPiDLe repository. 
 
 ## System Overview
-![Architecture](figures/system_overview.pdf)
+![Architecture](figures/system_overview.png)
 
 ## Prerequisites
 

@@ -1,0 +1,13 @@
+apache-flink==1.17.2
+apache-flink-libraries==1.17.2
+confluent-kafka==2.5.0
+gensim==4.3.2
+numpy==1.23.5
+pandas==2.2.2
+protobuf==4.23.4
+psutil==6.0.0
+python==3.9.19
+pytorch==2.4.0
+scikit-learn==1.5.1
+scipy==1.10.1
+tqdm==4.66.5

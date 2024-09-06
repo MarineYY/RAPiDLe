@@ -33,8 +33,7 @@ def split(line):
     subject_name = log['subject_name']
     object_uuid = log['object_uuid']
     object_path = log['object_path']
-    # if log['index'] <= 1200000:
-    #     return event
+
     event.set_host_uuid(uuid.UUID(host_uuid))
     event.set_timestamp(int(event_timestamp))
     event.set_relationship(event_type)
@@ -80,9 +79,9 @@ def main_process():
     env = StreamExecutionEnvironment.get_execution_environment()
 
     env.add_jars(
-        "file:///home/yangyangwei/RAPiDLe/lib/flink-sql-connector-kafka-1.17.2.jar", 
-        "file:///home/yangyangwei/RAPiDLe/lib/kafka-clients-3.5.1.jar",
-        "file:///home/yangyangwei/RAPiDLe/lib/flink-connector-base-1.17.2.jar"
+        "file:///RAPiDLe/lib/flink-sql-connector-kafka-1.17.2.jar", 
+        "file:///RAPiDLe/lib/kafka-clients-3.5.1.jar",
+        "file:///RAPiDLe/lib/flink-connector-base-1.17.2.jar"
     )
 
     env.set_parallelism(8)
@@ -100,7 +99,7 @@ def main_process():
                 .process(TagBasedAnomalyPathMiningOnFlink())
 
     print(f"Main process PID: {os.getpid()}")
-    # 提交执行
+
     env.execute('Anomaly Path Mining')
 
 def test_memory_usage(pid, interval=5):
@@ -114,12 +113,12 @@ def test_memory_usage(pid, interval=5):
             while True:
                 process = psutil.Process(pid)
                 mem_info = process.memory_info()
-                mem_usage = mem_info.rss / (1024 * 1024)  # 转换为 MiB
+                mem_usage = mem_info.rss / (1024 * 1024)  
                 total_memory += mem_usage
                 count += 1
                 average_memory = total_memory / count
                 log_file.write(f"Memory usage: {mem_usage:.2f} MiB, Average memory usage: {average_memory:.2f} MiB\n")
-                log_file.flush()  # 确保每次写入都立即保存到文件
+                log_file.flush() 
                 # print(f"Memory usage: {mem_usage:.2f} MiB, Average memory usage: {average_memory:.2f} MiB")
                 time.sleep(interval)
     except psutil.NoSuchProcess:

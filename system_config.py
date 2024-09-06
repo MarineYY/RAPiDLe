@@ -16,16 +16,16 @@ topic = 'e3-trace-1-test'
 # topic = 'frequency-5-test'
 
 # alert path
-# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-cadets-1-test.log'
-# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-cadets-2-test.log'
-# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-cadets-3-test.log'
-# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-theia-1-test.log'
-alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/e3-trace-1-test.log'
-# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/nodlink-1-test.log'
+# alert_path = 'RAPiDLe/apt_alert/e3-cadets-1-test.log'
+# alert_path = 'RAPiDLe/apt_alert/e3-cadets-2-test.log'
+# alert_path = 'RAPiDLe/apt_alert/e3-cadets-3-test.log'
+# alert_path = 'RAPiDLe/apt_alert/e3-theia-1-test.log'
+alert_path = 'RAPiDLe/apt_alert/e3-trace-1-test.log'
+# alert_path = 'RAPiDLe/apt_alert/nodlink-1-test.log'
 
-# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/frequency-3-test.log'
-# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/frequency-4-test.log'
-# alert_path = '/home/yangyangwei/RAPiDLe/apt_alert/frequency-5-test.log'
+# alert_path = 'RAPiDLe/apt_alert/frequency-3-test.log'
+# alert_path = 'RAPiDLe/apt_alert/frequency-4-test.log'
+# alert_path = 'RAPiDLe/apt_alert/frequency-5-test.log'
 
 attack_nodes_dict = {
     'e3-cadets-1-test': [
@@ -138,19 +138,3 @@ attack_nodes_dict = {
         '9B503B58-3F1C-11E8-A5CB-3FA3753A265A'
     ],
 }
-
-        # 'A494D8CF-50ED-5620-1FBE-07A0EE363991', 146.153.68.151
-        # '1F52B45B-9618-A060-215D-7BD61ECCAE05', gtcache
-        # 'E621F964-5A66-0F89-30E0-67ADB2A5EC28', /tmp/ztmp
-
-#  nodlink
-# '39bfc024-107c-5f59-a70b-c7a042977e10', http
-# '937bd2aa-06e7-52da-9dc6-9a0949ec8527',  /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.java
-# 'da91e64c-e244-583b-b139-d9ddeb417dab',  /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp$1U.class
-# '8bcf068b-89f3-5d8d-a84b-133e031a83bf',  /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.clas
-# '9f75baf9-069c-57ef-a47d-0b8d63d5970',   /usr/tomcat/apache-tomcat-8.5.76/work/Catalina/localhost/ROOT/org/apache/jsp/logout_jsp.classtmp
-# '84bc9e7b-616c-5777-af56-a6fbd3ae0b9c' sqltool_amd64_u
-# '6b045f4a-61fd-5335-96aa-25c98d779773'  gpgv
-# 'bfca5bc2-45cb-53d1-bf53-aebf2c557032'  cp
-# '08c80b73-c26d-5ef0-81a0-aad0fccddcba' cat
-# 'e79e7ef9-ba58-594e-a063-a5630b3d7224' base64

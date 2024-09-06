@@ -1,25 +1,25 @@
 event_csv_list = [
-    # '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_event_2.csv',
-    # '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_event_8.csv',
-    '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_event_9.csv'
+    # '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_event_2.csv',
+    # '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_event_8.csv',
+    '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_event_9.csv'
 ]
 
 event_npy_list = [
-    # '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_event_2.npy',
-    # '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_event_8.npy',
-    '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_event_9.npy'
+    # '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_event_2.npy',
+    # '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_event_8.npy',
+    '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_event_9.npy'
 ]
 
 event_csv_predict_list = [
-    # '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_event_2_predict.csv',
-    # '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_event_8_predict.csv',
-    '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_event_9_predict.csv'
+    # '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_event_2_predict.csv',
+    # '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_event_8_predict.csv',
+    '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_event_9_predict.csv'
 ]
 
 log_list = [
-    # '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_2.json',
-    # '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_8.json',
-    '/home/yangyangwei/dataset/cadets_e3_preparation/e3_cadets_preparation_9.json'
+    # '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_2.json',
+    # '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_8.json',
+    '/home/dir/dataset/cadets_e3_preparation/e3_cadets_preparation_9.json'
 ]
 
 event_dict = {

@@ -38,7 +38,7 @@ class TagBasedAnomalyPathMiningOnFlink(KeyedProcessFunction):
         self.processed_event_count_value = runtime_context.get_state(processed_event_count_value_descriptor)
 
     # def load_vector(self):
-    #     event_vector_path = '/home/yangyangwei/dataset/e3_cadets_preparation_event_2.npy'
+    #     event_vector_path = '/home/dir/dataset/e3_cadets_preparation_event_2.npy'
     #     self.vector_cache = np.load(event_vector_path, allow_pickle=True)
     #     return None
     
@@ -54,7 +54,7 @@ class TagBasedAnomalyPathMiningOnFlink(KeyedProcessFunction):
 
             # self.load_vector()
             # Load MLP model 
-            with open('/home/yangyangwei/Baseline_Frequency/cadets/data/mlp_model.pkl', 'rb') as file:
+            with open('/home/dir/Baseline_Frequency/cadets/data/mlp_model.pkl', 'rb') as file:
                 self.mlp_model = pickle.load(file)
         else:
             self.processed_event_count_value.update(self.processed_event_count_value.value() + 1)

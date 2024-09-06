@@ -1,22 +1,22 @@
 json_file_list = [
-    "/home/yangyangwei/dataset/nodlink/benign.json",
-    "/home/yangyangwei/dataset/nodlink/anomaly.json"
+    "/home/dir/dataset/nodlink/benign.json",
+    "/home/dir/dataset/nodlink/anomaly.json"
 ]
 
 event_csv_list = [
-    '/home/yangyangwei/dataset/nodlink_preparation/nodlink_preparation_event_1.csv'
+    '/home/dir/dataset/nodlink_preparation/nodlink_preparation_event_1.csv'
 ]
 
 event_npy_list = [
-    '/home/yangyangwei/dataset/nodlink_preparation/nodlink_preparation_event_1.npy'
+    '/home/dir/dataset/nodlink_preparation/nodlink_preparation_event_1.npy'
 ]
 
 event_csv_predict_list = [
-    '//home/yangyangwei/dataset/nodlink_preparation/nodlink_preparation_event_1_predict.csv'
+    '//home/dir/dataset/nodlink_preparation/nodlink_preparation_event_1_predict.csv'
 ]
 
 log_list = [
-    '/home/yangyangwei/dataset/nodlink_preparation/nodlink_preparation_1.json'
+    '/home/dir/dataset/nodlink_preparation/nodlink_preparation_1.json'
 ]
 
 class EVENT_TYPE:

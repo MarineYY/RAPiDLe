@@ -1,5 +1,3 @@
 # RAPiDLe
-> Anomaly detection with Path Mining
+> Intrusion Detection Based on Path Mining in Provenance Graph.
 
-## Work together
-Other collaborators can make contribution via new branches

@@ -12,7 +12,7 @@ from pyflink.datastream import StreamExecutionEnvironment, RuntimeExecutionMode
 from pyflink.datastream.connectors.file_system import FileSource, StreamFormat, FileSink, OutputFileConfig, RollingPolicy
 from pyflink.datastream.connectors.kafka import KafkaSource
 from pyflink.common.serialization import SimpleStringSchema
-sys.path.insert(0, '/home/yangyangwei/RAPiDLe/provenance_graph')
+
 from provenance_graph.PDM import PDM_pb2
 from provenance_graph.associated_event import AssociatedEvent
 from provenance_graph.event_type_config import LOG_TYPE

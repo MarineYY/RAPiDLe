@@ -1,7 +1,7 @@
 import json
 import os
 import sys
-sys.path.insert(0, '/home/yangyangwei/RAPiDLe')
+sys.path.insert(0, 'path/RAPiDLe')
 from provenance_graph.event_type_config import LOG_TYPE, EVENT_TYPE
 from log_producer.preparation_log import PreparationLog
 

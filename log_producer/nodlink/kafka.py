@@ -2,7 +2,7 @@ import sys
 from confluent_kafka import Producer
 import json
 import uuid
-sys.path.append('/home/yangyangwei/RAPiDLe/log_producer/nodlink')
+sys.path.append('path/RAPiDLe/log_producer/nodlink')
 from config import event_csv_predict_list, log_list, event_dict
 
 json_count = 0

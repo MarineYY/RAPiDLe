@@ -1,7 +1,7 @@
 import json
 import os
 import sys
-sys.path.insert(0, '/home/yangyangwei/RAPiDLe')
+sys.path.insert(0, 'path/RAPiDLe')
 from provenance_graph.event_type_config import LOG_TYPE, EVENT_TYPE
 from log_producer.preparation_log import PreparationLog
 from log_producer.theia.config import json_file_list
@@ -133,8 +133,8 @@ if __name__ == '__main__':
                             continue
                         process_cache[key] = process.split('/')[-1]
         
-            preparation_event_path = f'/home/yangyangwei/dataset/theia_e3_preparation/e3_theia_preparation_event_{index}.csv'
-            preparation_log_path = f'/home/yangyangwei/dataset/theia_e3_preparation/e3_theia_preparation_{index}.json'
+            preparation_event_path = f'path/dataset/theia_e3_preparation/e3_theia_preparation_event_{index}.csv'
+            preparation_log_path = f'path/dataset/theia_e3_preparation/e3_theia_preparation_{index}.json'
             with open(preparation_event_path, 'w') as f:
                 for event in preparation_events:
                     f.write(event + '\n')

@@ -3,7 +3,7 @@ import pickle
 import time
 import torch
 import sys
-sys.path.append('/home/yangyangwei/RAPiDLe/log_producer')
+sys.path.append('path/RAPiDLe/log_producer')
 from cadets.config import event_csv_list, event_npy_list, event_csv_predict_list
 
 def load_raw_data(raw_file_path):
@@ -22,7 +22,7 @@ if __name__ == '__main__':
     batch_size = 1024
     
     # Load MLP model 
-    with open('/home/yangyangwei/Baseline_Frequency/cadets/data/mlp_model_3.pkl', 'rb') as file:
+    with open('path/Baseline_Frequency/cadets/data/mlp_model_3.pkl', 'rb') as file:
         mlp_model = pickle.load(file)
     print("Loaded MLP model")
 
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     # end_time = time.time()
     # print(f"Time of predicting event data in {end_time - start_time:.2f} seconds")
     # print(f"Predicted values for {len(y_pred_test)} new events, with average speed of {len(y_pred_test)  / (end_time - start_time):.2f} events per second")
-    # malicious_event = load_raw_data('/home/yangyangwei/dataset/e3_cadets_preparation_event_2.csv')
+    # malicious_event = load_raw_data('path/dataset/e3_cadets_preparation_event_2.csv')
 
     # with open(output_value_path, 'w') as csv_file:
     #     for event, prediction in zip(malicious_event, y_pred_test):

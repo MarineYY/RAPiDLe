@@ -3,7 +3,7 @@ import pickle
 import time
 import torch
 import sys
-sys.path.append('/home/yangyangwei/RAPiDLe/log_producer/nodlink')
+sys.path.append('path/RAPiDLe/log_producer/nodlink')
 from config import event_csv_list, event_npy_list, event_csv_predict_list
 
 def load_raw_data(raw_file_path):
@@ -22,7 +22,7 @@ if __name__ == '__main__':
     batch_size = 1024
     
     # Load MLP model 
-    with open('/home/yangyangwei/Baseline_Frequency/nodlink/data/mlp_model.pkl', 'rb') as file:
+    with open('path/Baseline_Frequency/nodlink/data/mlp_model.pkl', 'rb') as file:
         mlp_model = pickle.load(file)
     print("Loaded MLP model")
 

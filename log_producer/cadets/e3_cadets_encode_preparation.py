@@ -90,7 +90,7 @@ def convert_json_to_standard_format(log):
     return standard_format, preparation_log.to_json()
 
 if __name__ == '__main__':
-    json_dir_path = '/home/yangyangwei/RAPiDLe/find_ground_truth/ground_truth/e3-cadets-path.txt'
+    json_dir_path = 'path/RAPiDLe/find_ground_truth/ground_truth/e3-cadets-path.txt'
     file_list = load_data(json_dir_path)
 
     for index, file_path in enumerate(file_list):
@@ -114,8 +114,8 @@ if __name__ == '__main__':
                         port = data['datum']['com.bbn.tc.schema.avro.cdm18.NetFlowObject']['remotePort']
                         network_cache[key] = ip + ' : ' + str(port)
         
-            preparation_event_path = f'/home/yangyangwei/dataset/e3_cadets_preparation_event_{index}.csv'
-            preparation_log_path = f'/home/yangyangwei/dataset/e3_cadets_preparation_{index}.json'
+            preparation_event_path = f'path/dataset/e3_cadets_preparation_event_{index}.csv'
+            preparation_log_path = f'path/dataset/e3_cadets_preparation_{index}.json'
             with open(preparation_event_path, 'w') as f:
                 for event in preparation_events:
                     f.write(event + '\n')

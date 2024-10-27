@@ -1,7 +1,7 @@
 import json
 import os
 import sys
-sys.path.insert(0, '/home/yangyangwei/RAPiDLe')
+sys.path.insert(0, 'path/RAPiDLe')
 from log_producer.preparation_log import PreparationLog
 from log_producer.trace.config import json_file_list, LOG_TYPE, EVENT_TYPE
 
@@ -142,8 +142,8 @@ if __name__ == '__main__':
                         preparation_events.append(standard_format)
 
             print(len(preparation_events), len(preparation_logs))
-            preparation_event_path = f'/home/yangyangwei/dataset/trace_e3_preparation/e3_trace_preparation_event_{index}.csv'
-            preparation_log_path = f'/home/yangyangwei/dataset/trace_e3_preparation/e3_trace_preparation_{index}.json'
+            preparation_event_path = f'path/dataset/trace_e3_preparation/e3_trace_preparation_event_{index}.csv'
+            preparation_log_path = f'path/dataset/trace_e3_preparation/e3_trace_preparation_{index}.json'
             with open(preparation_event_path, 'w') as f:
                 for event in preparation_events:
                     f.write(event + '\n')

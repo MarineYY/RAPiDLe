@@ -6,7 +6,7 @@ import re
 import gensim
 import sys
 from gensim.models import KeyedVectors
-sys.path.append('/home/yangyangwei/RAPiDLe/log_producer/nodlink')
+sys.path.append('path/RAPiDLe/log_producer/nodlink')
 from config import event_csv_list, event_npy_list
 
 max_position_size = 10
@@ -118,7 +118,7 @@ def batch_encode_events(events, batch_size=128, save_path_prefix='encoded_events
     print(f"End of encoding events>> the shape of encoded events: {encoded_events.shape}\n") 
 
 if __name__ == '__main__':
-    word_vectors_path = '/home/yangyangwei/Baseline_Frequency/nodlink/data/word_vectors.kv'
+    word_vectors_path = 'path/Baseline_Frequency/nodlink/data/word_vectors.kv'
 
     batch_size = 1024
     

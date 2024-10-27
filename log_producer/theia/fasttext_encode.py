@@ -6,7 +6,7 @@ import re
 import gensim
 import sys
 from gensim.models import KeyedVectors
-sys.path.append('/home/yangyangwei/RAPiDLe/log_producer')
+sys.path.append('path/RAPiDLe/log_producer')
 from theia.config import event_csv_list, event_npy_list, event_csv_predict_list, log_list
 
 max_position_size = 10
@@ -118,10 +118,10 @@ def batch_encode_events(events, batch_size=128, save_path_prefix='encoded_events
     print(f"End of encoding events>> the shape of encoded events: {encoded_events.shape}\n") 
 
 if __name__ == '__main__':
-    word_vectors_path = '/home/yangyangwei/Baseline_Frequency/theia/data/word_vectors.kv'
+    word_vectors_path = 'path/Baseline_Frequency/theia/data/word_vectors.kv'
 
-    # malicious_test_data = '/home/yangyangwei/dataset/e3_cadets_preparation_event_2.csv'
-    # malicious_test_data_npy = '/home/yangyangwei/dataset/e3_cadets_preparation_event_2.npy'
+    # malicious_test_data = 'path/dataset/e3_cadets_preparation_event_2.csv'
+    # malicious_test_data_npy = 'path/dataset/e3_cadets_preparation_event_2.npy'
 
     batch_size = 1024
 

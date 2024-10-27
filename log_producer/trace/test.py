@@ -1,7 +1,7 @@
 import os
 
 # Define the path to the directory
-directory_path = '/home/yangyangwei/dataset/trace'
+directory_path = 'path/dataset/trace'
 
 # Get a list of files and directories in the specified path
 files_and_directories = os.listdir(directory_path)
